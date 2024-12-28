@@ -1,0 +1,57 @@
+PackageIdentifier: AIMP.AIMP
+PackageVersion: 5.40.2652
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: /AUTO /SILENT
+  SilentWithProgress: /AUTO
+  Upgrade: /UPDATE
+UpgradeBehavior: install
+FileExtensions:
+- spx
+- aac
+- ac3
+- ape
+- cda
+- dts
+- flac
+- it
+- m4a
+- m4b
+- midi
+- mo3
+- mod
+- mp1
+- mp2
+- mp3
+- mpc
+- mtm
+- ofr
+- ogg
+- opus
+- rmi
+- s3m
+- tak
+- tta
+- umx
+- wav
+- wma
+- wv
+- xm
+ReleaseDate: 2024-12-28
+AppsAndFeaturesEntries:
+- ProductCode: AIMP
+Installers:
+- Architecture: x86
+  InstallerType: inno
+  InstallerUrl: https://aimp.ru/files/windows/builds/aimp_5.40.2652_w32.exe
+  InstallerSha256: 5c49a19b9ee40275bf2d0431ea74f473ab6de7dcc0afb8c075c65a43d28fc5aa
+- Architecture: x64
+  InstallerType: exe
+  InstallerUrl: https://aimp.ru/files/windows/builds/aimp_5.40.2652_w64.exe
+  InstallerSha256: b71689265a9152fc0a4d620540fc7d125f52cca74f25843cf784d50ab5d2ceb3
+ManifestType: installer
+ManifestVersion: 1.5
